@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MasterActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/countdown_left"
+        tools:text="test"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/countdown_setter"
+            android:hint="Minuten"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="22dp"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/countdown_button"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Set Timer"
+            android:layout_toRightOf="@+id/countdown_setter"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Lights On/Off" />
+
+</LinearLayout>
